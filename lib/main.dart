@@ -1,7 +1,5 @@
-import 'package:cloud_firestore/cloud_firestore.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_aplicacion_1/pages/login_page.dart';
-import 'package:flutter_aplicacion_1/pages/registro.dart';
 import 'package:firebase_core/firebase_core.dart';
 import 'firebase_options.dart';
 

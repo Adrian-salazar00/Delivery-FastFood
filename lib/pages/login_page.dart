@@ -1,7 +1,5 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_aplicacion_1/widgets/boton_page.dart';
-import 'package:flutter_aplicacion_1/widgets/caja_text_page.dart';
-import 'package:flutter_aplicacion_1/widgets/text_page.dart';
 import 'package:flutter_aplicacion_1/pages/registro.dart';
 import 'package:flutter_aplicacion_1/pages/recuperar_cuenta.dart';
 

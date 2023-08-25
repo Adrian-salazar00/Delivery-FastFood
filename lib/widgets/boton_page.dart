@@ -1,7 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutter/rendering.dart';
 import 'package:flutter_aplicacion_1/pages/home_page.dart';
-import 'package:flutter_aplicacion_1/pages/registro.dart';
 
 class Botones extends StatelessWidget {
   const Botones({super.key});

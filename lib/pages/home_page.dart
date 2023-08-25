@@ -1,6 +1,4 @@
 // ignore_for_file: unnecessary_new
-import 'dart:ffi';
-
 import 'package:flutter/material.dart';
 import 'package:flutter/rendering.dart';
 import 'package:flutter_aplicacion_1/pages/login_page.dart';
@@ -126,41 +124,6 @@ class HomeState extends State<HomePage> {
               height: 200,
               child:
                   ListView(scrollDirection: Axis.horizontal, children: <Widget>[
-                // Card(
-                // color: const Color.fromARGB(
-                //   173, 66, 207, 160), // aumente el const antes del Color
-                // child: new InkWell(
-                //   onTap: () {
-                //     Navigator.push(
-                //         context,
-                //         MaterialPageRoute(
-                //             builder: (context) =>
-                //                 const manus()) //aumente el const antes del manus
-                //         );
-                //   },
-                //   child: Container(
-                //     //cambié el Container por un SizedBox
-                //     width: 110,
-                //     child: Column(
-                //       children: <Widget>[
-                //         Text(
-                //           'Menu',
-                //           style: TextStyle(
-                //             height: 3,
-                //             fontWeight: FontWeight.bold,
-                //           ),
-                //         ),
-                //         SizedBox(
-                //           height: 20,
-                //         ),
-                //         Container(
-                //           child: Image.asset('assets/menu.png'),
-                //         )
-                //       ],
-                //     ),
-                //   ),
-                // ),
-                //),
                 Card(
                   color: const Color.fromARGB(172, 106, 150, 207),
                   child: new InkWell(
